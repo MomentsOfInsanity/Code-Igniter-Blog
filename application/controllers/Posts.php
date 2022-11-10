@@ -1,16 +1,14 @@
 <?php
     class Posts extends CI_Controller{
-        public function index(){
+        public function index(){	
 
-            $data['title'] = 'Latest Posts';
+			$data['title'] = 'Latest Posts';
 
-            $data['posts'] = $this->post_model->get_posts();
-            print_r($data['posts']);
+			$data['posts'] = $this->post_model->get_posts();
 
-            $this->load->view('templates/header');
-            $this->load->view('posts/index', $data);
-            $this->load->view('templates/footer');
-
-        }
+			$this->load->view('templates/header');
+			$this->load->view('posts/index', $data);
+			$this->load->view('templates/footer');
+		}
     }
 ?>

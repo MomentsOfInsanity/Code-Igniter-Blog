@@ -2,6 +2,7 @@
     <head>
         <title>ciBlog</title>
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
