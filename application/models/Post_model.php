@@ -34,7 +34,7 @@
         }
 
         public function update_post(){
-            echo 
+            echo $this->input->post('id')
         }
     } 
 
