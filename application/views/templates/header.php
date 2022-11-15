@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+        <script src="http://cdn.ckeditor.com/4.20.0/standard/ckeditor.js"></script>
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
@@ -22,6 +23,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url(); ?>posts">Blog</a>
                     </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <a class="nav-link" href="<?php echo base_url(); ?>posts/create">Create Post</a>
                 </ul>
             </div>
         </div>
